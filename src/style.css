@@ -1,0 +1,26 @@
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .nav-link{
+        font-family: 'Roboto', sans-serif;
+        margin-right: 30px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .nav-link:hover::after{
+        content: "";
+        display: block;
+        border-bottom: 3px solid mediumspringgreen;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+ }
