@@ -1,0 +1,117 @@
+/* Navbar */
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+
+
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .nav-link{
+        font-family: 'Roboto', sans-serif;
+        margin-right: 30px;
+        font-weight: bold;
+        color: white !important;
+    }
+
+    .nav-link:hover::after{
+        content: "";
+        display: block;
+        border-bottom: 3px solid mediumspringgreen;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .nav-link.active {
+        
+        border-bottom: 3px solid mediumspringgreen;
+        padding-bottom: 5px;
+       
+    }
+
+    .jumbotron{
+        margin-top: -142px;
+    }
+
+    .jumbotron .display-4{
+        font-size: 60px;
+    }
+
+    .jumbotron .fs-5{
+        font-size: 20px;
+    }
+ }
+
+
+ /* About-Us */
+ .container-xxl {
+    background-color: black;
+    padding: 2rem 1rem;
+    border-radius: .3rem;
+    display:grid;
+    background-size:contain;
+ }
+
+ .container-xxl .jdl-about-us {
+    margin-top : 40px;
+    margin-left : 50px;
+    font-family: century-gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color: #1AFCB6;
+ }
+
+
+ .container-xxl .ket-about-us{
+    font-family: century-gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 28px;
+    text-align: justify;
+    color: #FFFFFF;    
+    border-bottom: 8px solid #1AFCB6;
+    border-bottom-right-radius: 10%;
+    padding-bottom: 30px;
+    margin-right : 50px;
+    margin-top:20px;
+
+ }
+
+ /* What We Offer */
+ .offer {
+    font-family: monument-extended;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 70px;
+    text-align: center;
+    border: 2px solid #1AFCB6;
+    box-sizing: border-box; 
+    transform: rotate(-29.96deg);
+    border-radius: 50%;
+    
+ }
+
+ .what-offer{
+    font-family: century-gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color: #1AFCB6;
+    text-align: right;
+ }
+
