@@ -1,3 +1,4 @@
+/* Navbar */
 .nav-link{
     font-family: 'Roboto', sans-serif;
     margin-right: 30px;
@@ -11,6 +12,9 @@
     z-index: 1;
 }
 
+
+
+/* Jumbotron */
 .jumbotron {
     padding: 2rem 1rem;
     background-color: black;
