@@ -3,7 +3,7 @@
     font-family: 'Roboto', sans-serif;
     margin-right: 30px;
     font-weight: bold;
-    color: white;
+    color: white !important;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 
@@ -12,11 +12,52 @@
     z-index: 1;
 }
 
+/* About Us */
 
+.container-xxl {
+    background-color: #222;
+    padding: 2rem 1rem;
+    display:grid;
+    background-size: cover;
+}
 
-/* Desktop Version */
-@media (min-width: 992px) {
-    .nav-link{
+ .container-xxl h1 {
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: 20px;
+     font-family: century-gothic, sans-serif;                                        
+     font-weight: bolder;
+     font-size: 40px;
+     text-align: center;
+     color: #1AFCB6;
+    }
+    
+    .container-xxl p{
+        font-family: 'Century Gothic', sans-serif;                                       
+        font-size: 18px;
+        text-align: justify;    
+        line-height: 28px;
+        color: #FFFFFF;
+        padding-bottom: 10px;
+        margin: 20px 20px;
+     }
+
+     .container-xxl h2{
+        margin-right: auto;
+        margin-left: auto;
+        font-family: 'Monument Extended', sans-serif;                                         
+        font-size: 30px;
+        text-align: center;
+        color:white;    
+     }
+
+     .container-xxl img{
+         width: 200px;
+     }
+    
+    /* Desktop Version */
+    @media (min-width: 992px) {
+        .nav-link{
         font-family: 'Roboto', sans-serif;
         margin-right: 30px;
         font-weight: bold;
@@ -34,84 +75,29 @@
     }
 
     .nav-link.active {
-        
         border-bottom: 3px solid mediumspringgreen;
         padding-bottom: 5px;
-       
+        border-bottom-width: 50%;  
     }
 
-    .jumbotron{
-        margin-top: -142px;
+    /* About Us */
+    .container-xxl p{
+        line-height: 35px;
+        padding-right: 30px;
+        font-size: 30px;
     }
 
-    .jumbotron .display-4{
+    .container-xxl h1{
         font-size: 60px;
     }
 
-    .jumbotron .fs-5{
-        font-size: 20px;
+    .container-xxl img{
+        margin-top: -50px;
+        width: 400px;
     }
- }
-
-
- /* About-Us */
- .container-xxl {
-    background-color: black;
-    padding: 2rem 1rem;
-    border-radius: .3rem;
-    display:grid;
-    background-size:contain;
- }
-
- .container-xxl .jdl-about-us {
-    margin-top : 40px;
-    margin-left : 50px;
-    font-family: century-gothic;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 60px;
-    color: #1AFCB6;
- }
-
-
- .container-xxl .ket-about-us{
-    font-family: century-gothic;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 28px;
-    text-align: justify;
-    color: #FFFFFF;    
-    border-bottom: 8px solid #1AFCB6;
-    border-bottom-right-radius: 10%;
-    padding-bottom: 30px;
-    margin-right : 50px;
-    margin-top:20px;
 
  }
 
- /* What We Offer */
- .offer {
-    font-family: 'Monument Extended', sans-serif;                                         
-    font-style: normal;
-    font-weight: normal;
-    color: #FFFFFF;
-    font-size: 30px;
-    margin-top: 70px;
-    text-align: center;
-    border: 2px solid #1AFCB6;
-    box-sizing: border-box; 
-    transform: rotate(-29.96deg);
-    border-radius: 50%;
-    
- }
 
- .what-offer{
-    font-family: century-gothic;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 60px;
-    color: #1AFCB6;
-    text-align: right;
- }
+ 
 
