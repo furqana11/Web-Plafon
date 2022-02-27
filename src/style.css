@@ -87,6 +87,12 @@
         margin-bottom: -8px;
     }
 
+    .nav-link.active {
+        border-bottom: 3px solid mediumspringgreen;
+        padding-bottom: 5px;
+        border-bottom-width: 50%;  
+    }
+
     .jumbotron{
         margin-top: -142px;
     }
