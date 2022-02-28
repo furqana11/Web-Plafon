@@ -224,15 +224,6 @@ a::after {
         color: white !important;
     }
 
-    .nav-link:hover::after{
-        content: "";
-        display: block;
-        border-bottom: 3px solid mediumspringgreen;
-        width: 50%;
-        margin: auto;
-        padding-bottom: 5px;
-        margin-bottom: -8px;
-    }
 
     .nav-link.active {
         
