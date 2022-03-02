@@ -19,6 +19,7 @@
     border-radius: .3rem;
     display:grid;
     background-size:contain;
+    font-family: century-gothic, sans-serif;
  }
 
  .container-xxl .jdl-search {
