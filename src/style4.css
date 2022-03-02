@@ -18,11 +18,39 @@
     border-radius: .3rem;
     display:grid;
     background-size:cover;
-    margin: auto auto;
+    justify-content: center;
+    font-family: century-gothic, sans-serif;
 }
 
-.container .card{
-    margin-left: 30px;
+.container-xxl .card{
+    margin: 30px auto;
+    display: flex;
+}
+
+.container-xxl h5{
+    font-weight: 700;
+    
+}
+
+.container-xxl h4{
+    border-top: 1px solid rgba(255, 255, 255, 0.7);
+    font-family: 'Century Gothic'; 
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.container-xxl .img-fluid{
+    margin-bottom: 30px;
+}
+
+.container-xxl footer p{
+    font-family: 'Century Gothic';
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin: 30px auto;
 }
 
 .btn-custom {
