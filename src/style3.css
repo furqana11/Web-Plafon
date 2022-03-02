@@ -229,24 +229,11 @@ a::after {
     }
 
 
-    .nav-link.active {
-        
+    .nav-link.active { 
         border-bottom: 3px solid mediumspringgreen;
-        padding-bottom: 5px;
-       
+        padding-bottom: 5px;   
     }
 
-    .jumbotron{
-        margin-top: -142px;
-    }
-
-    .jumbotron .display-4{
-        font-size: 60px;
-    }
-
-    .jumbotron .fs-5{
-        font-size: 20px;
-    }
  }
 
 
